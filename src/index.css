@@ -9,6 +9,8 @@
     border: none;
     outline: none;
     box-sizing: border-box;
+    user-select: none;
+    text-transform: capitalize;
 }
 :root{
     --color-bg: #1f1f38;
@@ -37,7 +39,6 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
 }
 /* general style */
 
@@ -55,7 +56,7 @@ h1{
 
 section{
     margin-top: 8rem;
-
+    height: 100vh;
 }
 
 section > h2 , section > h5 {

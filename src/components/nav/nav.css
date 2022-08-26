@@ -1,0 +1,38 @@
+nav{
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translate(-50%);
+    background:rgba(255, 255, 255, 0.1);
+    padding:0.5rem 1.3rem;
+    backdrop-filter: blur(15px);
+    border-radius: 2rem;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    z-index: 2;
+    opacity: 0.2;
+    transition: all 0.3s linear;
+}
+nav:hover{
+    opacity: 1;
+}
+nav a {
+    background: transparent;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+nav a:hover{
+    background: rgba(155, 155, 155, 0.1);
+}
+
+nav a.active{
+    background: var(--color-bg);
+    color: var(--color-white);
+}
