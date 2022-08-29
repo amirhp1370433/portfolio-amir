@@ -31,3 +31,42 @@
    row-gap: 2rem;
    grid-template-columns: 1fr 1fr;
 }
+
+.experince__details{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.experince__details-icon{
+   margin-left: 6px;
+   color: var(--color-primary);
+}
+
+
+@media screen and (max-width : 1024px) {    
+   .experience__container{
+      grid-template-columns: 1fr;
+   }
+
+   .experience__container > div{
+      width: 80%;
+      padding: 2rem;
+      margin: 0 auto;
+   }
+   .experience__content{
+      padding: 1rem;
+   }
+}
+/*media queries sm dev*/
+
+@media screen and (max-width : 600px) {
+   .experience__container{
+gap: 1rem;   }
+
+.experience__container > div{
+   width: 100%;
+   padding: 2rem 1rem;
+}
+
+}

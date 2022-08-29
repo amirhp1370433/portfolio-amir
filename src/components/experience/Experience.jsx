@@ -17,42 +17,42 @@ const Experience = () => {
             </h3>
             <div className="experience__content">
               <article className='experince__details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='experince__details-icon'/>
                 <h4>
                   HTML
                 </h4>
                 
               </article>
               <article className='experince__details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='experince__details-icon'/>
                 <h4>
                   CSS
                 </h4>
  
               </article>
               <article className='experince__details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='experince__details-icon'/>
                 <h4>
                   JAVASCRIPT
                 </h4>
                 
               </article>
               <article className='experince__details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='experince__details-icon'/>
                 <h4>
                   TAILWIND CSS
                 </h4>
                 
               </article>
               <article className='experince__details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='experince__details-icon'/>
                 <h4>
                   REACT.JS
                 </h4>
                 
               </article>
               <article className='experince__details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='experince__details-icon'/>
                 <h4>
                   AXIOS
                 </h4> 
@@ -65,28 +65,28 @@ const Experience = () => {
             </h3>            
             <div className="experience__content">
               <article className='experince__details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='experince__details-icon'/>
                 <h4>
                   NODE.JS
                 </h4>
                 
               </article>
               <article className='experince__details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='experince__details-icon'/>
                 <h4>
                   REST_API
                 </h4>
                 
               </article>
               <article className='experince__details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='experince__details-icon'/>
                 <h4>
                   MONGO DB
                 </h4>
                 
               </article>
               <article className='experince__details'>
-                <BsPatchCheckFill/>
+                <BsPatchCheckFill className='experince__details-icon'/>
                 <h4>
                   EXPRESS
                 </h4>

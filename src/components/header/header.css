@@ -46,6 +46,9 @@ header{
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0 ;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 .me::after{
     content: '';
