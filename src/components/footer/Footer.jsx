@@ -36,6 +36,11 @@ import {FiGithub} from 'react-icons/fi'
         <a href="https://wa.me/989198247460?text=hi%20i`m%20intrested%20to%20work%20with%20you." target='_blank'  className='links'><BsWhatsapp/></a>
       </div>
     </div>
+    <div className="footer__copyright">
+      <small> 
+        &copy; amirsade dev. all rights reserved .
+      </small>
+    </div>
   </footer>
   )
 }

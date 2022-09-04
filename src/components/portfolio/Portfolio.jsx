@@ -1,6 +1,13 @@
 import React from 'react'
 import './portfolio.css'
 import data from './portfolioData'
+import images from './images'
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+
  const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -16,7 +23,7 @@ import data from './portfolioData'
             return(
               <article key={index} className='portfolio__item'>
                 <div className="portfolio__item-image">
-                  <img src={i.image} alt={i.titel} className=''/>
+                  <img src={i.image} alt="" />
                 </div>
                   <h3>
                     {i.titel}
