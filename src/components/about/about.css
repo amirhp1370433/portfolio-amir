@@ -17,6 +17,7 @@
     overflow: hidden;
     transition: all 0.3s ease-in-out;
     transform-origin: center;
+    height: 100%;
 }
 .about__me-image:hover{
     transform: rotate(0deg) perspective(1200px);

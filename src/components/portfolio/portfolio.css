@@ -44,3 +44,22 @@
         gap: 1rem;
     }
  }
+ .nav-list{
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-item{
+    transition: var(--transition);
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+ }
+.nav-item.active{
+     padding: 10px;
+     border-radius: 0.8rem;
+     background: var(--color-primary-variant);
+  }

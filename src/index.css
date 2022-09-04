@@ -10,8 +10,7 @@
     outline: none;
     box-sizing: border-box;
     user-select: none;
-    text-transform: capitalize;
-}
+ }
 :root{
     --color-bg: #1f1f38;
     --color-bg-variant : #2c2c6c;
