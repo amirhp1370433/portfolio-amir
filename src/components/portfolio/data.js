@@ -3,28 +3,30 @@
 // companies icons
  
 // projects images
-import Project1 from '../../assets/portfolio1.jpg';
-import Project2 from '../../assets/portfolio1.jpg';
-import Project3 from '../../assets/portfolio1.jpg';
-import Project4 from '../../assets/portfolio1.jpg';
-import Project5 from '../../assets/portfolio1.jpg';
-import Project6 from '../../assets/portfolio1.jpg';
+
+import Project1 from '../../assets/metatube.png';
+import Project2 from '../../assets/portfolio2.jpg';
+import Project3 from '../../assets/portfolio3.jpg';
+import Project4 from '../../assets/portfolio4.jpg';
+import Project5 from '../../assets/portfolio5.png';
+import Project6 from '../../assets/portfolio6.jpg';
 
 // skills images
  
 // testimonial images
- 
 
 // navigation
  
 // projects
+
 export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'Install Zabbix Server on Ubuntu 20.04',
-    category: 'zabbix',
-    explain:'Zabbix is an open-source web-based monitoring tool for monitoring a diverse range of IT components.' ,
+    link:'https://metatube-self.vercel.app/',
+    name: 'metverse chat system server less',
+    category: 'blockchain',
+    explain:'metaverse chat system is a platform that based on blockchain which is very secure and fast  ' ,
   },
   {
     id: '2',
@@ -64,6 +66,7 @@ export const projectsData = [
 ];
 
 // projects
+
 export const projectsNav = [
   {
     name: 'all',
@@ -77,7 +80,5 @@ export const projectsNav = [
   {
     name: 'zabbix',
   }, 
-  
-];
 
- 
+];

@@ -1,17 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import'./portfolio.css'
 import { projectsData } from './data';
-
 const Project = ({ item }) => {
+  const [itemIsShown , setItemIsShown] = useState(false)
+  const toggleBtn = () => {setItemIsShown( prevState => !prevState)}
   return (
-    <div key={item.id} className='flex flex-col items-center text-center'>
-        <img className='portfolio__item-image' src={item.image} alt='' />
-      <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
-      <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
-      <p className='text-base max-w-md'>
-        {item.explain}
-      </p>
-    </div>
+    <article key={item.id} className='portfolio__item'>
+    <div className="portfolio__item-image">
+      <img src={item.image} alt="" className='portfolio-image' />
+     </div>
+     <div className='explain__container'>
+
+      <h3 className='explain'>
+        {itemIsShown ? item.explain : item.explain.substr(0 , 100)}
+         <button onClick={toggleBtn} className='btn-read'>
+          read more
+        </button>
+      </h3>
+     </div>
+      <div className="portfolio__item-cta">
+        <a href={item.category} className='btn' target="_blank">github</a>
+        <a href={item.link} className='btn btn-primary' target='_blank'>live Demo</a>
+      </div>
+  </article>
   );
 };
 

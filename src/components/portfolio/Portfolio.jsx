@@ -23,7 +23,8 @@ import "swiper/css";
             return(
               <article key={index} className='portfolio__item'>
                 <div className="portfolio__item-image">
-                  <img src={i.image} alt="" />
+                  <img src={i.image} alt="" className='portfolio-image' />
+                  <p>Lorem, ipsum dolor.</p>
                 </div>
                   <h3>
                     {i.titel}

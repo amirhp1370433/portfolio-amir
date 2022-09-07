@@ -1,7 +1,7 @@
 nav{
     position: fixed;
     bottom: 2rem;
-    left: 50%;
+    left: 5%;
     transform: translate(-50%);
     background:rgba(255, 255, 255, 0.1);
     padding:0.5rem 1.3rem;
@@ -9,6 +9,7 @@ nav{
     border-radius: 2rem;
     width: max-content;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
@@ -41,7 +42,7 @@ nav a.active{
     nav{
         flex-direction: column;
         left: 13%;
-        bottom: 3%;
+        bottom: 30%;
     }
  
  }

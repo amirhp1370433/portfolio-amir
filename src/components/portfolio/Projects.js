@@ -61,11 +61,9 @@ const Projects = () => {
         {
           projects.map(( item , index)=>{
             return(
-              <article key={index} className='portfolio__item'>
-                <div className="portfolio__item-image">
+ 
                   <Project item={item} key={item.id} />
-                </div>
-              </article>
+          
             )
           })
         }
